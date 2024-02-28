@@ -1,0 +1,40 @@
+name: flutter_clean_new
+description: A new Flutter project.
+publish_to: none
+version: 0.1.0
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+dependencies:
+  equatable: ^2.0.5
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.3
+  dartz: ^0.10.1
+  get_it: ^7.6.4
+  connectivity_plus: ^4.0.2
+  internet_connection_checker: ^1.0.0+1
+  http: ^1.1.0
+  shared_preferences: ^2.2.1
+  provider: ^6.0.5
+  dio: ^5.3.3
+  bloc: ^8.1.2
+  change_app_package_name: ^1.1.0
+  flutter_launcher_icons: ^0.13.1
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  mockito: ^5.4.2
+  build_runner: ^2.4.6
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+
+flutter_launcher_icons:
+    android: "launcher_icon"
+    ios: false
+    image_path: "assets/icon.jpg"
+    min_sdk_android: 21 # android min sdk min:16, default 21
