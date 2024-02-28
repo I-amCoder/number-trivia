@@ -1,3 +1,3 @@
 # flutter_clean_new
 
-A new Flutter project.
+A simple app in flutter with http://numbersapi.com/ implementation with clean architecture
